@@ -1,0 +1,16 @@
+import random
+
+n = int(input("type min")
+m = int(input("type max")
+
+ranNumber = random.randint(n,m)
+
+count = 0
+while count < 10:
+  enter = int(input("type number"))
+  if enter == ranNumber:
+    print("Good!")
+    break
+  count += 1
+
+print("Bad")
